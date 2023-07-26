@@ -1,0 +1,41 @@
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #fbf7e3;
+  padding-block: 10px;
+  margin: 0;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.button1 button {
+  border: none;
+  background-color: #f3df85;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #743f1b;
+  padding-block: 10px;
+  padding-inline: 17px;
+}
+
+.button2 {
+  display: flex;
+  border: none;
+  padding-inline: 15px;
+  padding-block: 5px;
+  background-color: #f3df85;
+  border-radius: 40px;
+}
+
+.button2 img {
+  width: 30px;
+  padding-block: 20px;
+  padding-right: 10px;
+}
+
+.button2 h3 {
+  color: #743f1b;
+  font-size: 1.3rem;
+}

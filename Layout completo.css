@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #fbf7e3;
+    padding-block: 10px;
+    margin: 0;
+
+    overflow: hidden;
+  }
+
+  .button1 button {
+    border: none;
+    background-color: #f3df85;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #743f1b;
+    padding-block: 10px;
+    padding-inline: 17px;
+  }
+
+  .button2 {
+    display: flex;
+    border: none;
+    padding-inline: 15px;
+    padding-block: 5px;
+    background-color: #f3df85;
+    border-radius: 40px;
+  }
+
+  .button2 img {
+    width: 30px;
+    padding-block: 20px;
+    padding-right: 10px;
+  }
+
+  .button2 h3 {
+    color: #743f1b;
+    font-size: 1.3rem;
+  }
+
+  .titolo-principale {
+    color: #743f1b;
+    margin-inline: 15px;
+    font-size: 3rem;
+    margin-block: 20px;
+  }
+
+  .titolo-secondario {
+    color: #743f1b;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-inline: 15px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .card {
+    width: 260px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #fbf7e3;
+    border-radius: 40px;
+    overflow: hidden;
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  .description {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 0.2;
+    margin-inline: 20px;
+  }
+
+  .description p {
+    text-align: center;
+  }
+
+  .shop {
+    margin: 30px;
+    background-color: #f3df85;
+    font-size: 0.8rem;
+    color: #743f1b;
+    margin-inline: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding-block: 5px;
+    border-radius: 20px;
+  }
+
+  .description h4 {
+    font-weight: bold;
+    color: #743f1b;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
+
+  .description p {
+    font-size: 0.8rem;
+    color: #743f1b;
+    font-weight: 300;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    background-color: #fbf7e3;
+    padding: 20px;
+    border-radius: 20px;
+    margin-inline: 15px;
+    margin-bottom: 15px;
+    gap: 5px;
+  }
+
+  article h2 {
+    margin-block: 5px;
+    font-size: 2rem;
+    color: #743f1b;
+  }
+
+  article p {
+    color: #743f1b;
+  }
+
+  article img {
+    width: 100%;
+  }
+}

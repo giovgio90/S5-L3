@@ -1,0 +1,20 @@
+article {
+  display: flex;
+  flex-direction: column;
+  background-color: #fbf7e3;
+  padding: 20px;
+}
+
+article h2 {
+  margin-block: 5px;
+  font-size: 2rem;
+  color: #743f1b;
+}
+
+article p {
+  color: #743f1b;
+}
+
+article img {
+  width: 100%;
+}

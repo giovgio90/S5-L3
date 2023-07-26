@@ -1,0 +1,50 @@
+.card {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #fbf7e3;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 400px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 0.2;
+}
+
+.description p {
+  text-align: center;
+}
+
+.shop {
+  margin: 30px;
+  background-color: #f3df85;
+  font-size: 1.2rem;
+  color: #743f1b;
+  margin-inline: 70px;
+  margin-top: 10px;
+  border: none;
+  padding-block: 10px;
+  border-radius: 20px;
+}
+
+.description h4 {
+  font-weight: bold;
+  color: #743f1b;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+
+.description p {
+  font-size: 1.3rem;
+  color: #743f1b;
+  font-weight: 300;
+}
